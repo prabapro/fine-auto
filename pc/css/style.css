@@ -56,6 +56,64 @@ button {
   font-size: 11px;
 }
 
+.footer-menu {
+  margin: 20px 0 20px 50px;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+  width: 120px;
+  font-size: 10px;
+}
+
+.footer-menu ul li a {
+  color: #fff;
+}
+
+.footer-menu ul li::before {
+  content: "▶︎";
+  color: white;
+  padding-right: 10px;
+}
+
+footer {
+  background: #e60113;
+  padding: 20px 0 10px 0;
+  color: white;
+}
+
+#to-top {
+  padding: 25px 0;
+  text-align: center !important;
+}
+
+#to-top img {
+  width: 200px;
+}
+
+.home-contact {
+  padding: 5px 0;
+  border-top: 1px solid #f28089;
+}
+
+.footer-cards {
+  text-align: center;
+  background: black;
+  padding: 20px 0;
+}
+
+.footer-cards img {
+  display: inline-block;
+  margin: 0 10px;
+  height: 60px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Home */
 header.home {
   background: url("../img/home-hero.jpg");
   height: 724px;
@@ -63,10 +121,10 @@ header.home {
 
 nav.main-menu {
   position: absolute;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 400px;
   width: 640px;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .contact-button {
@@ -162,63 +220,6 @@ section.car-item {
   height: 658px;
 }
 
-.footer-menu {
-  margin: 20px 0 20px 50px;
-}
-
-.footer-menu ul li {
-  display: inline-block;
-  width: 120px;
-  font-size: 10px;
-}
-
-.footer-menu ul li a {
-  color: #fff;
-}
-
-.footer-menu ul li::before {
-  content: "▶︎";
-  color: white;
-  padding-right: 10px;
-}
-
-footer {
-  background: #e60113;
-  padding: 20px 0 10px 0;
-  color: white;
-}
-
-#to-top {
-  padding: 25px 0;
-  text-align: center !important;
-}
-
-#to-top img {
-  width: 200px;
-}
-
-.home-contact {
-  padding: 5px 0;
-  border-top: 1px solid #f28089;
-}
-
-.footer-cards {
-  text-align: center;
-  background: black;
-  padding: 20px 0;
-}
-
-.footer-cards img {
-  display: inline-block;
-  margin: 0 10px;
-  height: 60px;
-}
-
-.copyright {
-  text-align: center;
-  padding-top: 10px;
-}
-
 /* Company */
 header.company {
   background: url("../img/company-hero.jpg");
@@ -306,23 +307,145 @@ section.about-us table {
   margin: 0 auto;
 }
 
-.company-about-us-table td{
-  padding:15px;
+.company-about-us-table td {
+  padding: 15px;
   border-top: 2px solid #d9d9d9;
   font-size: 14px;
 }
 
-.company-about-us-table td:nth-child(odd){
+.company-about-us-table td:nth-child(odd) {
   width: 150px;
 }
-.company-about-us-table td:nth-child(odd)::after{
+
+.company-about-us-table td:nth-child(odd)::after {
   content: "|";
-  color: red;
+  color: #e60113;
   float: right;
   font-weight: 700;
   font-size: 24px;
 }
 
-.company-about-us-table tr:last-child{
+.company-about-us-table tr:last-child {
   border-bottom: 2px solid #d9d9d9;
+}
+
+/* Car Buy */
+header.car-buy {
+  background: url("../img/car-buy-hero.jpg");
+  height: 260px;
+}
+
+section.car-buy-body {
+  background: url("../img/car-buy-body.jpg");
+  height: 3045px;
+}
+
+/* Contact us */
+header.contact-us {
+  background: url("../img/contact-us-hero.jpg");
+  height: 273px;
+}
+
+section.contact-us-form-area {
+  padding: 70px 0;
+  height: auto;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form-header{
+  padding:0 50px;
+  line-height: 24px;
+}
+.red {
+  color: #e60113;
+}
+
+.contact-us-form-area form{
+  margin-top:50px;
+}
+
+.form-row{
+  border-top: 1px solid #d9d9d9;
+  padding:30px;
+}
+
+label{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+.form-inputs{
+  display: inline-block;
+}
+
+.form-inputs{
+  border-left: 4px solid #e60113;
+  padding-left: 20px;
+}
+
+input[type="text"]{
+  height: 24px;
+  width: 400px;
+}
+
+input[type="radio"]{
+  margin: 0 10px;
+}
+
+input[type="text"].medium{
+  width: 300px;
+}
+
+input[type="text"].small{
+  width: 200px;
+  margin-left: 10px;
+}
+
+input[type="text"].large{
+  width: 100%;
+  margin: 20px 0;
+}
+
+.form-select{
+  width: 235px;
+  height: 30px;
+  margin-top:20px;
+}
+
+hr.contact-form-hr {
+  border: none;
+  height: 1px;
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  margin-top: 30px;
+  width: 540px;
+}
+
+.full-textarea{
+  width: 535px;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+}
+
+hr.grey {
+  border: none;
+  height: 1px;
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  margin-top: 1px;
+}
+
+.form-buttons{
+  text-align: center;
+}
+.form-buttons button{
+  background: #e60113;
+  text-align: center;
+  margin:20px 5px;
+  padding:10px 30px;
+  color: white;
+  font-size: 16px;
+  cursor:pointer;
 }

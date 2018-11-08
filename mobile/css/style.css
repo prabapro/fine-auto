@@ -32,11 +32,13 @@ img {
   clear: both;
 }
 
-.bg-fit-red{
+.bg-fit-red {
   background-color: #e60113;
+  box-sizing: border-box;
+  border-image-width: 0px !important;
 }
 
-.bg-fit-white{
+.bg-fit-white {
   background-color: #fff;
 }
 
@@ -45,7 +47,7 @@ img {
   height: 100%;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -55,7 +57,7 @@ img {
   width: 300px;
 }
 
-.empty-divider{
+.empty-divider {
   min-height: 25px;
 }
 
@@ -122,7 +124,8 @@ button {
   float: left;
   margin-top: 1.4rem;
 }
-.justify{
+
+.justify {
   text-align: justify;
 }
 
@@ -302,7 +305,7 @@ section#service, section#service-2 {
   line-height: 65px;
 }
 
-label {
+label.nav-label {
   margin: 0 20px 0 0;
   font-size: 32px;
   line-height: 70px;
@@ -323,7 +326,6 @@ label {
 }
 
 /* Car Buy */
-
 header#car-buy {
   background-image: url("../img/car-buy-hero.png");
   background-size: cover;
@@ -342,79 +344,211 @@ header#company {
 }
 
 /*Company*/
-
-section#company-message{
-  padding-top:5%;
+section#company-message {
+  padding-top: 5%;
 }
-.name-eng{
+
+.name-eng {
   text-align: right;
   padding-right: 20px;
-  color:#e60113;
+  color: #e60113;
   font-weight: bold;
 }
 
-.company-director-name{
+.company-director-name {
   display: flex;
   align-items: center;
-  justify-content:flex-end;
-  margin-top:15px;
+  justify-content: flex-end;
+  margin-top: 15px;
   color: #464646;
   font-size: 1.2rem;
 }
 
-.name-large{
+.name-large {
   font-size: 2.2rem;
   font-weight: 700;
   padding-left: 10px;
 }
 
-header#company-photo-grid{
+header#company-photo-grid {
   padding: 0;
   margin: 0;
 }
 
-.company-photo-grid-cards{
+.company-photo-grid-cards {
   text-align: center;
   color: white;
   padding: 3% 5%;
   box-sizing: border-box;
-
 }
 
-.company-photo-grid-cards p{
+.company-photo-grid-cards p {
   text-align: left;
 }
 
-.company-photo-grid-cards img{
+.company-photo-grid-cards img {
   width: 100%;
   padding-bottom: 10px;
 }
 
-section#company-about-us{
-  padding-bottom:30px;
+section#company-about-us {
+  padding-bottom: 30px;
 }
 
-table#company-about-us-table{
+table#company-about-us-table {
   width: 100%;
 }
 
-table#company-about-us-table td{
+table#company-about-us-table td {
   display: block;
   padding: 10px 7%;
-  color:#161616;
+  color: #161616;
 }
 
-#company-about-us-table td:nth-child(odd){
+#company-about-us-table td:nth-child(odd) {
   color: #666666;
   background-color: #ebebeb;
   border-top: 1px solid #cecccc;
   border-bottom: 1px solid #cecccc;
 }
 
-.google-maps{
+.google-maps {
   border-bottom: 5px solid #e60113;
 }
 
+/* Contact us */
+header#contact-us {
+  background-image: url("../img/contact-us-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 100%;
+  min-height: 270px;
+}
+
+section.contact-us-form-area {
+  padding: 70px 0;
+  height: auto;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form-header {
+  line-height: 24px;
+  padding: 0 6%;
+}
+
+.required {
+  color: #e60113;
+}
+
+.contact-us-form-area form {
+  margin-top: 50px;
+}
+
+.form-row {
+  padding: 0;
+}
+
+.form-row>label {
+  display: block;
+  padding: 15px 5%;
+  width: 100%;
+  vertical-align: middle;
+  color: #666666;
+  font-size: 1rem;
+  background-color: #ebebeb;
+  border-top: 1px solid #cecccc;
+  border-bottom: 1px solid #cecccc;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 25px 0;
+}
+
+.form-inputs {
+  display: block;
+  pading: 10px 5%;
+}
+
+.contact-form-t {
+  margin-left: 5%;
+}
+
+/* .form-inputs{
+  border-left: 4px solid #e60113;
+  padding-left: 20px;
+} */
+input[type="text"] {
+  height: 24px;
+  margin: 0 5%;
+  box-sizing: border-box;
+  width: 90%;
+}
+
+input[type="radio"] {
+  margin: 0 5%;
+}
+
+input[type="text"].medium {
+  width: 70%;
+}
+
+input[type="text"].small {
+  width: 40%;
+  margin-left: 5%;
+}
+
+input[type="text"].large {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.form-select {
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin: 5%;
+}
+
+hr.contact-form-hr {
+  border: none;
+  height: 1px;
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  margin: 30px;
+  width: 90%;
+}
+
+.full-textarea {
+  width: 90%;
+  margin: 5%;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+hr.grey {
+  border: none;
+  height: 1px;
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  margin-top: 1px;
+}
+
+.form-buttons {
+  text-align: center;
+}
+
+.form-buttons button {
+  background: #e60113;
+  text-align: center;
+  margin: 20px 5px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 600px) {
   .wrapper {

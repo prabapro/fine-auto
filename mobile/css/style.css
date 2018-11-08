@@ -6,7 +6,7 @@
 
 body {
   background: black;
-  font-size: 13px;
+  font-size: 14px;
   line-height: normal;
   font-family: 'Poppins', sans-serif;
 }
@@ -42,7 +42,7 @@ img {
   width: 300px;
 }
 
-header {
+header#home {
   background-image: url("../img/home-hero.png");
   background-size: cover;
   background-position: center;
@@ -104,6 +104,9 @@ button {
 .date {
   float: left;
   margin-top: 1.4rem;
+}
+.justify{
+  text-align: justify;
 }
 
 #to-top {
@@ -268,7 +271,7 @@ section#service, section#service-2 {
   float: left;
   text-align: left;
   width: 500px;
-  background: red;
+  background: #e60113;
   position: absolute;
   top: 0;
 }
@@ -287,7 +290,7 @@ label {
   line-height: 70px;
   /* display: none; */
   display: block;
-  color: red;
+  color: #e60113;
   width: 30px;
   float: right;
   cursor: pointer;
@@ -301,6 +304,51 @@ label {
   display: block;
 }
 
+/* Car Buy */
+
+header#car-buy {
+  background-image: url("../img/car-buy-hero.png");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 100%;
+  min-height: 268px;
+}
+
+header#company {
+  background-image: url("../img/company-hero.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 524px;
+}
+
+/*Company*/
+
+section#company-message{
+  padding:5% 0;
+}
+.name-eng{
+  text-align: right;
+  padding-right: 20px;
+  color:#e60113;
+  font-weight: bold;
+}
+
+.company-director-name{
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  margin-top:15px;
+  color: #464646;
+  font-size: 1.2rem;
+}
+
+.name-large{
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
 @media only screen and (max-width: 600px) {
   .wrapper {
     width: 100%;

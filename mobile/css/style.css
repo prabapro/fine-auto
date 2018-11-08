@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   line-height: normal;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 .wrapper {
@@ -31,15 +32,31 @@ img {
   clear: both;
 }
 
-.bg-fit img {
+.bg-fit-red{
+  background-color: #e60113;
+}
+
+.bg-fit-white{
+  background-color: #fff;
+}
+
+.bg-fit-white img, .bg-fit-red img {
   width: 100%;
   height: 100%;
+}
+
+.center{
+  text-align: center;
 }
 
 .header-logo img {
   float: left;
   display: inline-block;
   width: 300px;
+}
+
+.empty-divider{
+  min-height: 25px;
 }
 
 header#home {
@@ -132,6 +149,7 @@ footer {
   text-align: center;
   padding: .7rem 0;
   color: white;
+  font-size: 11px;
 }
 
 section#service, section#service-2 {
@@ -326,7 +344,7 @@ header#company {
 /*Company*/
 
 section#company-message{
-  padding:5% 0;
+  padding-top:5%;
 }
 .name-eng{
   text-align: right;
@@ -349,6 +367,55 @@ section#company-message{
   font-weight: 700;
   padding-left: 10px;
 }
+
+header#company-photo-grid{
+  padding: 0;
+  margin: 0;
+}
+
+.company-photo-grid-cards{
+  text-align: center;
+  color: white;
+  padding: 3% 5%;
+  box-sizing: border-box;
+
+}
+
+.company-photo-grid-cards p{
+  text-align: left;
+}
+
+.company-photo-grid-cards img{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+section#company-about-us{
+  padding-bottom:30px;
+}
+
+table#company-about-us-table{
+  width: 100%;
+}
+
+table#company-about-us-table td{
+  display: block;
+  padding: 10px 7%;
+  color:#161616;
+}
+
+#company-about-us-table td:nth-child(odd){
+  color: #666666;
+  background-color: #ebebeb;
+  border-top: 1px solid #cecccc;
+  border-bottom: 1px solid #cecccc;
+}
+
+.google-maps{
+  border-bottom: 5px solid #e60113;
+}
+
+
 @media only screen and (max-width: 600px) {
   .wrapper {
     width: 100%;

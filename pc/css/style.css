@@ -13,8 +13,8 @@ a:visited {
 }
 
 a:hover {
-  color: inherit;
   text-decoration: underline;
+  color: inherit;
 }
 
 html {
@@ -23,12 +23,12 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 1220px;
-  margin: 0 auto;
-  background: white;
   font-size: 12px;
   line-height: 18px;
+  width: 1220px;
+  margin: 0 auto;
   color: #47525d;
+  background: white;
 }
 
 .container {
@@ -41,19 +41,19 @@ body {
 }
 
 hr {
-  border: none;
   height: 1px;
-  color: #f28089;
-  background-color: #f28089;
   margin-top: 1px;
+  color: #f28089;
+  border: none;
+  background-color: #f28089;
 }
 
 button {
-  background: yellow;
-  padding: 10px 8px;
-  border: none;
-  text-transform: uppercase;
   font-size: 11px;
+  padding: 10px 8px;
+  text-transform: uppercase;
+  border: none;
+  background: yellow;
 }
 
 .footer-menu {
@@ -61,9 +61,9 @@ button {
 }
 
 .footer-menu ul li {
+  font-size: 10px;
   display: inline-block;
   width: 120px;
-  font-size: 10px;
 }
 
 .footer-menu ul li a {
@@ -71,15 +71,15 @@ button {
 }
 
 .footer-menu ul li::before {
+  padding-right: 10px;
   content: "▶︎";
   color: white;
-  padding-right: 10px;
 }
 
 footer {
-  background: #e60113;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 10px;
   color: white;
+  background: #e60113;
 }
 
 #to-top {
@@ -97,44 +97,43 @@ footer {
 }
 
 .footer-cards {
+  padding: 20px 0;
   text-align: center;
   background: black;
-  padding: 20px 0;
 }
 
 .footer-cards img {
   display: inline-block;
-  margin: 0 10px;
   height: 60px;
+  margin: 0 10px;
 }
 
 .copyright {
-  text-align: center;
   padding-top: 10px;
+  text-align: center;
 }
-
 /* Home */
 header.home {
-  background: url("../img/home-hero.jpg");
   height: 724px;
+  background: url("../img/home-hero.jpg");
 }
 
 nav.main-menu {
+  font-size: 11px;
   position: absolute;
+  width: 640px;
   margin-top: 15px;
   margin-left: 400px;
-  width: 640px;
-  font-size: 11px;
 }
 
 .contact-button {
-  float: right;
-  background: yellow;
-  padding: 10px 20px;
-  border: none;
-  text-transform: uppercase;
   font-size: 14px;
+  float: right;
+  padding: 10px 20px;
   vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+  background: yellow;
 }
 
 .main-menu ul li {
@@ -143,14 +142,14 @@ nav.main-menu {
 }
 
 .main-menu ul li::before {
+  padding-right: 10px;
   content: "▶︎";
   color: #e60113;
-  padding-right: 10px;
 }
 
 section.news-campaign {
-  background: url("../img/home-news.jpg");
   height: 1582px;
+  background: url("../img/home-news.jpg");
 }
 
 .news-grid {
@@ -163,10 +162,12 @@ section.news-campaign {
   border-top: 1px solid #f28089;
 }
 
-.news-grid-column-one, .news-grid-column-two, .news-grid-column-three {
+.news-grid-column-one,
+.news-grid-column-three,
+.news-grid-column-two {
   display: inline-block;
-  vertical-align: middle;
   padding: 15px 10px;
+  vertical-align: middle;
 }
 
 .news-grid-column-two {
@@ -183,8 +184,8 @@ section.news-campaign {
 }
 
 section.service {
-  background: url("../img/home-service.jpg");
   height: 868px;
+  background: url("../img/home-service.jpg");
 }
 
 .services-button-array-top {
@@ -194,14 +195,14 @@ section.service {
 
 .services-button-array-top ul li {
   display: inline-block;
-  text-align: center;
   width: 405px;
+  text-align: center;
 }
 
 .services-button-array-bottom {
   position: absolute;
-  margin-top: 755px;
   display: inline-block;
+  margin-top: 755px;
 }
 
 .services-button-array-bottom-one {
@@ -211,29 +212,28 @@ section.service {
 
 .services-button-array-bottom-two {
   position: relative;
-  left: 784px;
   top: -33px;
+  left: 784px;
 }
 
 section.car-item {
-  background: url("../img/home-car-item.jpg");
   height: 658px;
+  background: url("../img/home-car-item.jpg");
 }
-
 /* Company */
 header.company {
-  background: url("../img/company-hero.jpg");
   height: 274px;
+  background: url("../img/company-hero.jpg");
 }
 
 section.message {
-  background: url("../img/company-message.jpg");
   height: 1398px;
+  background: url("../img/company-message.jpg");
 }
 
 section.about-us {
-  background: url("../img/company-about-us.jpg");
   height: 694px;
+  background: url("../img/company-about-us.jpg");
 }
 
 section.action-map {
@@ -241,11 +241,11 @@ section.action-map {
 }
 
 .company-message {
-  width: 380px;
-  position: absolute;
-  margin-top: 170px;
-  line-height: 22px;
   font-size: 13px;
+  line-height: 22px;
+  position: absolute;
+  width: 380px;
+  margin-top: 170px;
   text-align: justify;
 }
 
@@ -254,10 +254,10 @@ section.action-map {
 }
 
 .director {
+  font-size: 16px;
+  font-weight: bold;
   text-align: right;
   color: #464646;
-  font-weight: bold;
-  font-size: 16px;
 }
 
 .director-name {
@@ -265,34 +265,34 @@ section.action-map {
 }
 
 .director-red {
-  color: #e60113;
-  text-align: right;
+  font-size: 14px;
   font-weight: bold;
   padding-right: 20px;
-  font-size: 14px;
+  text-align: right;
+  color: #e60113;
 }
 
 .company-photo-grid-1 {
   position: relative;
   top: 840px;
-  height: auto;
   display: inline-flex;
+  height: auto;
   text-align: center;
 }
 
 .company-photo-grid-2 {
   position: relative;
   top: 880px;
-  height: auto;
   display: inline-flex;
+  height: auto;
   text-align: center;
 }
 
 .company-photo-grid-items {
   width: 240px;
-  color: white;
-  text-align: center;
   margin: 0 20px;
+  text-align: center;
+  color: white;
 }
 
 .company-photo-grid-items img {
@@ -308,9 +308,9 @@ section.about-us table {
 }
 
 .company-about-us-table td {
+  font-size: 14px;
   padding: 15px;
   border-top: 2px solid #d9d9d9;
-  font-size: 14px;
 }
 
 .company-about-us-table td:nth-child(odd) {
@@ -318,134 +318,134 @@ section.about-us table {
 }
 
 .company-about-us-table td:nth-child(odd)::after {
+  font-size: 24px;
+  font-weight: 700;
+  float: right;
   content: "|";
   color: #e60113;
-  float: right;
-  font-weight: 700;
-  font-size: 24px;
 }
 
 .company-about-us-table tr:last-child {
   border-bottom: 2px solid #d9d9d9;
 }
-
 /* Car Buy */
 header.car-buy {
-  background: url("../img/car-buy-hero.jpg");
   height: 260px;
+  background: url("../img/car-buy-hero.jpg");
 }
 
 section.car-buy-body {
-  background: url("../img/car-buy-body.jpg");
   height: 3045px;
+  background: url("../img/car-buy-body.jpg");
 }
-
 /* Contact us */
 header.contact-us {
-  background: url("../img/contact-us-hero.jpg");
   height: 273px;
+  background: url("../img/contact-us-hero.jpg");
 }
 
 section.contact-us-form-area {
-  padding: 70px 0;
-  height: auto;
   font-size: 14px;
   line-height: 20px;
+  height: auto;
+  padding: 70px 0;
 }
 
-.form-header{
-  padding:0 50px;
+.form-header {
   line-height: 24px;
+  padding: 0 50px;
 }
+
 .red {
   color: #e60113;
 }
 
-.contact-us-form-area form{
-  margin-top:50px;
+.contact-us-form-area form {
+  margin-top: 50px;
 }
 
-.form-row{
+.form-row {
+  padding: 30px;
   border-top: 1px solid #d9d9d9;
-  padding:30px;
 }
 
-label{
+label {
   display: inline-block;
   width: 200px;
   vertical-align: top;
 }
 
-.form-inputs{
+.form-inputs {
   display: inline-block;
 }
 
-.form-inputs{
-  border-left: 4px solid #e60113;
+.form-inputs {
   padding-left: 20px;
+  border-left: 4px solid #e60113;
 }
 
-input[type="text"]{
-  height: 24px;
+input[type="text"] {
   width: 400px;
+  height: 24px;
 }
 
-input[type="radio"]{
+input[type="radio"] {
   margin: 0 10px;
 }
 
-input[type="text"].medium{
+input[type="text"].medium {
   width: 300px;
 }
 
-input[type="text"].small{
+input[type="text"].small {
   width: 200px;
   margin-left: 10px;
 }
 
-input[type="text"].large{
+input[type="text"].large {
   width: 100%;
   margin: 20px 0;
 }
 
-.form-select{
+.form-select {
   width: 235px;
   height: 30px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 hr.contact-form-hr {
-  border: none;
-  height: 1px;
-  color: #d9d9d9;
-  background-color: #d9d9d9;
-  margin-top: 30px;
   width: 540px;
+  height: 1px;
+  margin-top: 30px;
+  color: #d9d9d9;
+  border: none;
+  background-color: #d9d9d9;
 }
 
-.full-textarea{
+.full-textarea {
   width: 535px;
   height: 200px;
   border: 1px solid #d9d9d9;
 }
 
 hr.grey {
-  border: none;
   height: 1px;
-  color: #d9d9d9;
-  background-color: #d9d9d9;
   margin-top: 1px;
+  color: #d9d9d9;
+  border: none;
+  background-color: #d9d9d9;
 }
 
-.form-buttons{
+.form-buttons {
   text-align: center;
 }
-.form-buttons button{
-  background: #e60113;
-  text-align: center;
-  margin:20px 5px;
-  padding:10px 30px;
-  color: white;
+
+.form-buttons button {
   font-size: 16px;
-  cursor:pointer;
+  margin: 20px 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background: #e60113;
 }

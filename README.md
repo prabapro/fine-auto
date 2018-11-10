@@ -1,7 +1,7 @@
 # Fine Auto Japanese Website
 
 English Title | Japanese Title | Page URI
-_____________ | _____________ | _____________
+------------- | ------------- | -------------
 Home	| ホーム	| index.html
 Car Buy	| 新車・中古車販売	| car-buy.html
 Car Sale 	| 買取サービス	| car-sale.html

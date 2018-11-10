@@ -449,3 +449,8 @@ hr.grey {
   color: white;
   background: #e60113;
 }
+/* Car Sale */
+header.car-sale {
+  height: 272px;
+  background: url("../img/car-sale-hero.jpg");
+}

@@ -19,10 +19,13 @@ Site Map	| - | site-map.html
 ### File Tree
 ```
 Fine Auto
+7 directories, 163 files
 .
 ├── README.md
 ├── mobile
 │   ├── car-buy.html
+│   ├── car-sale.html
+│   ├── coating.html
 │   ├── company.html
 │   ├── contact-us.html
 │   ├── css
@@ -32,6 +35,15 @@ Fine Auto
 │   │   ├── burger-menu.png
 │   │   ├── car-buy-body.png
 │   │   ├── car-buy-hero.png
+│   │   ├── car-sale-hero.gif
+│   │   ├── car-sale_02.gif
+│   │   ├── car-sale_03.gif
+│   │   ├── car-sale_04.gif
+│   │   ├── car-sale_05.jpg
+│   │   ├── coating-hero.jpg
+│   │   ├── coating_02.jpg
+│   │   ├── coating_03.jpg
+│   │   ├── coating_04.jpg
 │   │   ├── company-about-us.png
 │   │   ├── company-access-map.png
 │   │   ├── company-director.jpg
@@ -61,20 +73,46 @@ Fine Auto
 │   │   ├── home-service-03.png
 │   │   ├── home-service-blue.png
 │   │   ├── home-service-red.png
-│   │   ├── images
 │   │   ├── logo-footer.png
 │   │   ├── logo-header.png
-│   │   └── to-top.png
+│   │   ├── qa-hero.jpg
+│   │   ├── qa_02.jpg
+│   │   ├── qa_04.jpg
+│   │   ├── qa_05.jpg
+│   │   ├── qa_06.jpg
+│   │   ├── qa_07.jpg
+│   │   ├── qa_08.jpg
+│   │   ├── repair-hero.jpg
+│   │   ├── repair_02.jpg
+│   │   ├── repair_03.jpg
+│   │   ├── repair_04.jpg
+│   │   ├── shaken-hero.jpg
+│   │   ├── shaken_01.jpg
+│   │   ├── shaken_02.jpg
+│   │   ├── shaken_03.jpg
+│   │   ├── site-map-hero.jpg
+│   │   ├── staff-hero.jpg
+│   │   ├── staff_02.jpg
+│   │   ├── staff_03.jpg
+│   │   ├── staff_04.jpg
+│   │   ├── staff_05.jpg
+│   │   ├── staff_06.jpg
+│   │   ├── staff_07.jpg
+│   │   ├── staff_08.jpg
+│   │   ├── staff_09.jpg
+│   │   ├── to-top.png
+│   │   ├── voice-hero.jpg
+│   │   ├── voice_02.jpg
+│   │   ├── voice_03.jpg
+│   │   ├── voice_04.jpg
+│   │   └── voice_05.jpg
 │   ├── index.html
-│   └── ui
-│       ├── car-sale.jpg
-│       ├── coating.jpg
-│       ├── qa.jpg
-│       ├── repair.jpg
-│       ├── shaken.jpg
-│       ├── sitemap.jpg
-│       ├── staff.jpg
-│       └── voice.jpg
+│   ├── qa.html
+│   ├── repair.html
+│   ├── shaken.html
+│   ├── site-map.html
+│   ├── staff.html
+│   └── voice.html
 └── pc
     ├── car-buy.html
     ├── car-sale.html
@@ -152,15 +190,5 @@ Fine Auto
     ├── shaken.html
     ├── site-map.html
     ├── staff.html
-    ├── ui
-    │   ├── completed
-    │   │   ├── car-sale.jpg
-    │   │   ├── coating.jpg
-    │   │   ├── qa.jpg
-    │   │   ├── repair.jpg
-    │   │   ├── shaken.jpg
-    │   │   ├── staff.jpg
-    │   │   └── voice.jpg
-    │   └── sitemap.jpg
     └── voice.html
 ```
